@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" type="image/png" href="images/logo.png">
 	</head>
 	<body class="is-preload">
 
@@ -18,9 +19,12 @@
 				<ul class="container">
 					<li><a href="#top">Top</a></li>
 					<li><a href="#overview">Overview</a></li>
-					<li><a href="#data">Data</a></li>
+					<li><a href="#hypothesis">Hypothesis</a></li>
 					<li><a href="#methods">Methods</a></li>
 					<li><a href="#results">Results</a></li>
+					<li><a href="#interpretation">Interpretation</a></li>
+					<li><a href="#limitations">Limitations</a></li>
+					<li><a href="#Conclusion">Conclusion</a></li>
 					<li><a href="#team">Team</a></li>
 				</ul>
 			</nav>
@@ -37,10 +41,10 @@
 								<h1><strong>PROcrastinators</strong></h1>
 							</header>
 							<p>
-								<strong>Water Quality</strong>, 
-								<em>aims to understand and solve water access and quality</em>. 
-								This project analyzes the availability of quality water sources 
-								throughout the regions and how they are distributed among households.
+								Under the SDG of <strong>Water Quality</strong>, we aim to 
+								<em> understand and address issues of water access and equity</em>. 
+								This project focuses on analyzing the availability and distribution 
+								of quality water sources across different regions and households.
 							</p>
 							<p>WFW Summer - Group 25</p>
 							<ul style="list-style-type:none; margin-top:-30px;">
@@ -56,118 +60,70 @@
 		<!-- Overview -->
 			<article id="overview" class="wrapper style2">
 				<div class="container">
-					<div class="row aln-center">
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon featured fa-comments"></span>
-								<h3>Overview</h3>
-								<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
-							</section>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon solid featured fa-camera-retro"></span>
-								<h3>Problem</h3>
-								<p>"Access to quality water varies by demographics due to various factors, 
-									underscoring the challenges in addressing water accessibility in the Philippines."</p>
-							</section>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon featured fa-thumbs-up"></span>
-								<h3>Solution</h3>
-								<p>
-									"Our approach leverages data science  techniques to understand the complexities of 
-									water accessibility disparities among demographics in the Philippines, aiding in the 
-									development of targeted solutions to overcome these challenges."
-								</p>
-							</section>
-						</div>
-					</div>
-					<header>
-						<h2>Background</h2>
-						<p>
-							The World Bank highlights that achieving universal access
-							to safe water and sanitation in the Philippines is crucial
-							for improving human capital, public health, and poverty
-							reduction.However, current figures show that only a fraction
-							of the population has access to these services, indicating
-							significant gaps compared to regional averages. The government
-							aims to meet UN Sustainable Development Goals by 2030, requiring
-							substantial investments and increased support for local governments
-							facing challenges such as limited funds and capacity. Climate
-							change further complicates the situation, worsens existing strains
-							on domestic water supply systems. To address these issues, a
-							coordinated approach involving the national government, local
-							authorities, and the private sector is essential to ensure sustainable
-							and equitable access to water and sanitation services for all Filipinos.
-						</p>
-					</header>
-					<footer>
-						<a href="https://docs.google.com/spreadsheets/d/1krSIO-5jadJ5C-0T-_oZ3KWVDtta9XswDi9HmtJJAAM/edit?usp=sharing" class="button large scrolly">Datasets</a>
-					</footer>
-				</div>
-			</article>
-
-		<!-- Data -->
-			<article id="data" class="wrapper style3">
-				<div class="container">
-					<header>
-						<h2>We mined the internet for fake news data.</h2>
-						<p>Proin odio consequat  sapien vestibulum consequat lorem dolore feugiat.</p>
-					</header>
 					<div class="row">
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-								<h3><a href="#">Topic</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+						<div class="col-3 center col-4-large col-12-large">
+							<h2>Overview</h2>
+						</div>
+						<div class="col-9 col-8-large col-12-large">
+							<article class="box">
+								The "PROcrastinators" project aims to unravel the complexities of water 
+								access and equality in the Philippines. By analyzing the availability and 
+								distribution of quality water sources among households across different 
+								regions and demographics, we seek to uncover disparities and propose actionable 
+								solutions. Using data science techniques, our goal is to provide insights that 
+								contribute to developing strategies for equitable water access in the country.
 							</article>
 						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-								<h3><a href="#">Keywords</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+						<div class="col-9 col-8-large col-12-large">
+							<article class="box">
+								Access to quality water is highly uneven in the Philippines, influenced by various 
+								demographic, socioeconomic, and geographic factors. These disparities pose significant 
+								challenges to ensuring equitable water access, which is crucial for health, economic 
+								development, and overall well-being. Despite national efforts, many Filipinos still 
+								lack reliable access to safe water sources, highlighting the need for a deeper understanding 
+								of the underlying issues.
 							</article>
 						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-								<h3><a href="#">Tools</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+						<div class="col-3 center col-4-large col-12-large">
+							<h2>Problem</h2>
+						</div>
+						<div class="col-3 center col-4-large col-12-large">
+							<h2>Solution</h2>
+						</div>
+						<div class="col-9 col-8-large col-12-large">
+							<article class="box">
+								Our project employs data science methodologies to examine and understand the disparities 
+								in water access across different demographic groups in the Philippines. By analyzing data 
+								on water availability, quality, and distribution, we aim to identify the root causes of 
+								inequities and propose targeted strategies to address these challenges. This approach will
+									inform policies and interventions designed to ensure equitable water access for all communities.
 							</article>
 						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-								<h3><a href="#">Tempus dolore</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+						<div class="col-9 col-8-large col-12-large">
+							<article class="box">
+								Achieving universal access to safe water and sanitation is essential for enhancing human capital, 
+								public health, and poverty reduction in the Philippines. Despite government initiatives and investments 
+								aimed at meeting the UN Sustainable Development Goals by 2030, many Filipinos still lack access to these 
+								vital services. The World Bank emphasizes the importance of improving water and sanitation access as a 
+								priority for the country's development. Challenges such as limited financial resources, inadequate 
+								infrastructure, and the impacts of climate change further complicate efforts to achieve these goals. 
+								Coordinated efforts from national and local governments, along with private sector involvement, are crucial 
+								to overcoming these obstacles and ensuring sustainable water access for all.
 							</article>
 						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-								<h3><a href="#">Feugiat aliquam</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
-								<h3><a href="#">Sed amet ornare</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
+						<div class="col-3 center col-4-large col-12-large">
+							<h2>Background</h2>
 						</div>
 					</div>
 					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+						<a href="https://docs.google.com/spreadsheets/d/1krSIO-5jadJ5C-0T-_oZ3KWVDtta9XswDi9HmtJJAAM/edit?usp=sharing" 
+						class="button large scrolly">Datasets</a>
 					</footer>
 				</div>
 			</article>
 
-			<!-- Methods -->
-			<article id="methods" class="wrapper style3">
+			<!-- Hypothesis -->
+			<article id="hypothesis" class="wrapper style2">
 				<div class="container">
 					<header>
 						<h2>Hypothesis</h2>
@@ -191,6 +147,98 @@
 				</div>
 			</article>
 
+			<!-- Methods -->
+			<article id="methods" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>Methods</h2>
+					</header>
+					<div class="row">
+						<div class="col-4 col-4-medium col-12-large">
+							<article class="box style2">
+								<h3>1. Data Collection</h3>
+								<ul>
+									<li><p>
+										Aggregated data from sources including government reports, NGOs, 
+										and international organizations, focusing on water quality, availability, 
+										and demographic information.
+									</p></li>
+									<li><p>
+										Compiled a comprehensive database using open-source datasets and publicly available records.
+									</p></li>
+								</ul>
+							</article>
+						</div>
+						<div class="col-4 col-4-medium col-12-large">
+							<article class="box style2">
+								<h3>2. Data Preprocessing</h3>
+								<ul>
+									<li><p>
+										Cleaned and preprocessed the collected data to handle 
+										missing values, standardize formats, and ensure consistency.
+									</p></li>
+									<li><p>
+										Applied techniques such as data normalization and transformation to prepare the dataset for analysis
+									</p></li>
+								</ul>
+							</article>
+						</div>
+						<div class="col-4 col-4-medium col-12-large">
+							<article class="box style2">
+								<h3>3. Exploratory Data Analysis (EDA)</h3>
+								<ul>
+									<li><p>
+										Conducted EDA to uncover patterns, trends, and correlations in the data.
+									</p></li>
+									<li><p>
+										Employed statistical tests to evaluate the significance of observed differences and validate our hypotheses.
+									</p></li>
+								</ul>
+							</article>
+						</div>
+						<div class="col-4 col-4-medium col-12-large">
+							<article class="box style2">
+								<h3>4. Hypothesis Testing</h3>
+								<ul>
+									<li><p>
+										Formulated and tested hypotheses regarding the disparities in water access among different demographic groups.
+									</p></li>
+									<li><p>
+										Employed statistical tests to evaluate the significance of observed differences and validate our hypotheses.
+									</p></li>
+								</ul>
+							</article>
+						</div>
+						<div class="col-4 col-4-medium col-12-large">
+							<article class="box style2">
+								<h3>5. Machine Learning Modeling</h3>
+								<ul>
+									<li><p>
+										Developed predictive models to assess the impact of various factors on water access and quality.
+									</p></li>
+									<li><p>
+										Utilized logistic regression algorithms to identify key predictors of water accessibility disparities.
+									</p></li>
+								</ul>
+							</article>
+						</div>
+						<div class="col-4 col-4-medium col-12-large">
+							<article class="box style2">
+								<h3>6. Results, Interpretation, and Recommendations</h3>
+								<ul>
+									<li><p>
+										Analyzed model outcomes to derive insights into the main drivers of water access inequality.
+									</p></li>
+									<li><p>
+										Provided actionable recommendations for policymakers and stakeholders to improve water equity based on the findings.
+									</p></li>
+								</ul>
+							</article>
+						</div>
+					</div>
+				</div>
+			</article>
+
 			<!-- Results -->
 			<article id="results" class="wrapper style3">
 				<div class="container">
@@ -198,62 +246,255 @@
 						<h2>Results</h2>
 					</header>
 					<div class="row">
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
+						<div class="col-4 center col-6-medium col-12-small">
+							<article class="box style2 clear">
 								<a href="images/plot-1.png" class="image featured"><img src="images/plot-1.png" alt="" /></a>
 								<h3><a href="images/plot-1.png">Region</a></h3>
 								<p>Click image to enlarge</p>
 							</article>
 						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
+						<div class="col-4 center col-6-medium col-12-small">
+							<article class="box style2 clear">
 								<a href="images/plot-2.png" class="image featured"><img src="images/plot-2.png" alt="" /></a>
 								<h3><a href="images/plot-2.png">Province/NCR District</a></h3>
 								<p>Click image to enlarge</p>
 							</article>
 						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
+						<div class="col-4 center col-6-medium col-12-small">
+							<article class="box style2 clear">
 								<a href="images/plot-3.png" class="image featured"><img src="images/plot-3.png" alt="" /></a>
 								<h3><a href="images/plot-3.png">Municipality/City</a></h3>
 								<p>Click image to enlarge</p>
 							</article>
 						</div>
-						<div class="col-6 col-6-medium col-12-small">
-							<article class="box style2">
+						<div class="col-6 center col-6-medium col-12-small">
+							<article class="box style2 clear">
 								<a href="images/plot-4.png" class="image featured"><img src="images/plot-4.png" alt="" /></a>
 								<h3><a href="images/plot-4.png">Urban</a></h3>
 								<p>Click image to enlarge</p>
 							</article>
 						</div>
-						<div class="col-6 col-6-medium col-12-small">
-							<article class="box style2">
+						<div class="col-6 center col-6-medium col-12-small">
+							<article class="box style2 clear">
 								<a href="images/plot-5.png" class="image featured"><img src="images/plot-5.png" alt="" /></a>
 								<h3><a href="images/plot-5.png">Rural</a></h3>
 								<p>Click image to enlarge</p>
 							</article>
 						</div>
+						<p>
+							Our analysis revealed a p-value of 0.000009, indicating a statistically significant 
+							difference in water access among various demographic groups in the Philippines. This 
+							result leads us to reject the null hypothesis and accept the alternative hypothesis, 
+							confirming that disparities in water access exist. These findings highlight the need 
+							for targeted interventions to address the inequities in water distribution and quality
+							across the population.
+	
+						</p>
 					</div>
 					<footer>
-						<p>With a p-value of 0.000009 means we have to reject the null hypothesis and accept the alternative hypothesis. This means that 
-							there is a significant difference in access to quality water among different demographic groups in the Philippines</p>
-						<a href="https://github.com/up-jacky/Three-Follow" class="button large scrolly">Github Repo</a>
-						<a href="https://colab.research.google.com/drive/1f9OppLEFVREnXn2VVGsL0PzaRnVXCHgf?usp=sharing#scrollTo=vbICMXeMth8N" class="button large scrolly">Colab Link</a>
+						<div class="row">
+							<div class="col-6 col-6-medium col-12-small">
+								<a href="https://github.com/up-jacky/Three-Follow" class="button large scrolly">Github Repo</a>
+							</div>
+							<div class="col-6 col-6-medium col-12-small">
+								<a href="https://colab.research.google.com/drive/1f9OppLEFVREnXn2VVGsL0PzaRnVXCHgf?usp=sharing#scrollTo=vbICMXeMth8N" class="button large scrolly">Colab Link</a>
+							</div>
+						</div>
 					</footer>
+				</div>
+			</article>
+
+			<!-- Interpretation --> 
+			<article id="interpretation" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>Interpretation of Results and Socio-Economic Impact</h2>
+						<p>
+							Our analysis offers a detailed examination of water access disparities across different settings in the Philippines. 
+							Here are the key findings from our Exploratory Data Analysis (EDA) and machine learning models:
+						</p>
+					</header>
+					<div class="row">
+						<div class="col-12 col-12-medium">
+							<article class="box">
+								<h3>Exploratory Data Analysis</h3>
+								<div class="row">
+									<div class="col-6 col-6-medium">
+										<div class="box clear">
+											<h4>Urban vs Rural Access</h4>
+											<p>
+												Our EDA reveals that in both rural and urban settings, 
+												the majority of households have access to improved water 
+												sources. The number of households relying solely on unimproved 
+												water sources is significantly lower in comparison. However, 
+												rural areas still show a higher proportion of households using 
+												unimproved water sources compared to urban areas. This indicates 
+												that while improved water access is prevalent, there are still 
+												notable gaps in rural regions that require attention.
+											</p>
+										</div>
+									</div>
+									<div class="col-6 col-6-medium">
+										<div class="box clear">
+											<h4>Regional Disparities</h4>
+											<p>
+												Households in rural or economically underdeveloped regions are more 
+												likely to depend on unimproved water sources. This reflects the broader 
+												issue of inadequate infrastructure and investment in these areas. Although
+												improved water sources are more common, the persistence of unimproved access 
+												points in certain regions highlights the uneven distribution of water quality 
+												and accessibility.
+											</p>
+										</div>
+									</div>	
+								</div>
+							</article>
+						</div>
+						<div class="col-12 col-12-medium">
+							<article class="box">
+								<h3>Machine Learning Model</h3>
+								<p>
+									Our predictive models identified that geographical location 
+									is a crucial factor in determining water access quality. Households 
+									situated in rural or underdeveloped regions have a higher likelihood 
+									of relying on unimproved water sources. However, our analysis was 
+									limited by the lack of detailed data on other significant factors, 
+									such as household income levels and the condition of water supply 
+									infrastructure, which could provide deeper insights into the disparities
+								</p>
+							</article>
+						</div>
+					</div>
+				</div>
+			</article>
+
+			<!-- Limitations -->
+			<article id="limitations" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>Limitations</h2>
+						<p>
+							While our study provides valuable insights, several limitations need to be acknowledged:
+						</p>
+					</header>
+					<div class="row">
+						<div class="col-6 col-6-large">
+							<article class="box">
+								<h3>Data Gaps</h3>
+								<p>
+									The absence of comprehensive data on household income levels and the state of 
+									water supply infrastructure limits our ability to fully understand the complexities 
+									of water access disparities.
+								</p>
+							</article>
+						</div>
+						<div class="col-6 col-6-large">
+							<article class="box">
+								<h3>Expanded Analysis Techniques</h3>
+								<p>
+									Although we utilized statistical and machine learning techniques, incorporating 
+									additional methods could reveal other influential factors that were not captured in our current models.
+								</p>
+							</article>
+						</div>
+						<div class="col-6 col-6-medium col-12-large">
+
+						</div>
+					</div>
+					<footer>
+						<p>
+							Addressing these limitations in future research could offer a more comprehensive understanding 
+							of the factors affecting water access and quality across different regions and demographics in 
+							the Philippines.
+						</p>
+					</footer>
+				</div>
+			</article>
+
+			<!-- Conclusion -->
+			<article id="conclusion" class="wrapper style2">
+				<div class="container">
+					<div class="row">
+						<div class="col-3 center col-6-small col-12-large">
+							<h2>Conclusion</h2>
+						</div>
+						<div class="col-9 col-6-small col-12-large ">
+							<p class="box">
+								Our study highlights significant disparities in water access among different demographic 
+								groups in the Philippines. By employing data science techniques, we uncovered the socio-economic 
+								and geographic factors driving these inequalities. The importance of our study lies in its potential 
+								to inform policy and guide interventions aimed at improving water equity.
+							</p>
+						</div>
+
+				<!-- Recommendations -->
+						<div class="col-12 col-12-large">
+							<h2>Recommendations</h2>
+						</div>
+						<div class="col-6 center col-6-large">
+							<div class="box">
+								<h3>Invest in infrastructure</h3>
+								<p>
+									Prioritize the development and maintenance of water 
+									supply infrastructure in underserved regions.
+								</p>
+							</div>
+						</div>
+						<div class="col-6 center col-6-large">
+							<div class="box">
+								<h3>Support Low-Income Households</h3>
+								<p>
+									Implement policies and programs that reduce economic 
+									barriers to accessing quality water.
+								</p>
+							</div>
+						</div>
+						<div class="col-6 center col-6-large">
+							<div class="box">
+								<h3>Enhance Data Collection</h3>
+								<p>
+									Improve the collection and availability of data on water 
+									access and quality to support ongoing monitoring and analysis.
+								</p>
+							</div>
+						</div>
+						<div class="col-6 center col-6-large">
+							<div class="box">
+								<h3>Promote Collaborative Efforts</h3>
+								<p>
+									Foster partnerships between government, private sector, and 
+									communities to address water access challenges collectively.
+								</p>
+							</div>
+						</div>
+
+				<!-- Final Thoughts -->
+						<div class="col-3 center col-3-large">
+							<h2>Final Thoughts</h2>
+						</div>
+						<div class="col-9 col-9-large">
+							<p class="box">
+								Water is a fundamental human right and a cornerstone of public health and 
+								economic development. Our research underscores the urgent need for targeted 
+								actions to address the disparities in water access in the Philippines. By 
+								understanding and acting on these issues, we can move closer to a future where 
+								every Filipino has reliable access to safe and quality water.
+							</p>
+						</div>
+					</div>
 				</div>
 			</article>
 
 			<!-- Team -->
 			<article id="team" class="wrapper style4">
-				<div class="container medium">
+				<div class="container large">
 					<header>
-						<h2>About us</h2>
-						<p>You can add more information about the team members here.</p>
+						<h2>Meet the Team!</h2>
 					</header>
 					<div class="row">
 						<div class="col-4">
 							<div class="team-member">
-								<img class="image featured" src="images\jacky-abucay.jpg" alt="Team Member 1" style="width:100%">
+								<img class="image featured" src="images\jacky-abucay.png" alt="Team Member 1" style="width:100%">
 								<h3>Jacky John Abucay</h3>
 								<p>Hello! I'm a 2nd year BS Computer Science at UP Diliman. I like playing video games, watching movies and anime, I also like drawing. 
 									I'm interested in making video games and wants to learn more about making video games.</p>
@@ -269,7 +510,7 @@
 						</div>
 						<div class="col-4">
 							<div class="team-member">
-								<img src="images\arturo-saquilayan.jpg" alt="Team Member 3" style="width:100%">
+								<img class="image featured" src="images\arturo-saquilayan.png" alt="Team Member 3" style="width:100%">
 								<h3>Arturo Miguel Saquilayan</h3>
 								<p>Art is a third-year BS Computer Science major. As an overlapping field with Computer Science, Data Science is something that he has always wanted to do at least once. 
 									In his spare time, Art enjoys reading manga and playing video games.</p>

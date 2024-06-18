@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url("fontawesome-all.min.css");
 
 /*
@@ -98,9 +99,9 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Roboto', sans-serif;
 		line-height: 1.85em;
-		color: #888;
+		color: #000;
 		font-weight: 300;
 		font-size: 13pt;
 	}
@@ -193,7 +194,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-top: solid 1px #444;
+		border-top: solid 1px #000;
 		border-top-color: rgba(0, 0, 0, 0.35);
 		box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
 		height: 1px;
@@ -202,6 +203,7 @@ input, select, textarea {
 
 	p, ul, ol, dl, table {
 		margin-bottom: 2em;
+		color:#000;
 	}
 
 	header {
@@ -292,6 +294,7 @@ input, select, textarea {
 	}
 
 		.row > * {
+			align-self: baseline;
 			box-sizing: border-box;
 		}
 
@@ -329,98 +332,122 @@ input, select, textarea {
 
 		.row > .col-1 {
 			width: 8.33333%;
+
 		}
 
 		.row > .off-1 {
 			margin-left: 8.33333%;
+
 		}
 
 		.row > .col-2 {
 			width: 16.66667%;
+
 		}
 
 		.row > .off-2 {
 			margin-left: 16.66667%;
+
 		}
 
 		.row > .col-3 {
 			width: 25%;
+
 		}
 
 		.row > .off-3 {
 			margin-left: 25%;
+
 		}
 
 		.row > .col-4 {
 			width: 33.33333%;
+
 		}
 
 		.row > .off-4 {
 			margin-left: 33.33333%;
+
 		}
 
 		.row > .col-5 {
 			width: 41.66667%;
+
 		}
 
 		.row > .off-5 {
 			margin-left: 41.66667%;
+
 		}
 
 		.row > .col-6 {
 			width: 50%;
+
 		}
 
 		.row > .off-6 {
 			margin-left: 50%;
+
 		}
 
 		.row > .col-7 {
 			width: 58.33333%;
+
 		}
 
 		.row > .off-7 {
 			margin-left: 58.33333%;
+
 		}
 
 		.row > .col-8 {
 			width: 66.66667%;
+
 		}
 
 		.row > .off-8 {
 			margin-left: 66.66667%;
+
 		}
 
 		.row > .col-9 {
 			width: 75%;
+
 		}
 
 		.row > .off-9 {
 			margin-left: 75%;
+
 		}
 
 		.row > .col-10 {
 			width: 83.33333%;
+
 		}
 
 		.row > .off-10 {
 			margin-left: 83.33333%;
+
 		}
 
 		.row > .col-11 {
 			width: 91.66667%;
+
 		}
 
 		.row > .off-11 {
 			margin-left: 91.66667%;
+
 		}
 
 		.row > .col-12 {
 			width: 100%;
+
 		}
 
 		.row > .off-12 {
 			margin-left: 100%;
+
 		}
 
 		.row.gtr-0 {
@@ -596,6 +623,7 @@ input, select, textarea {
 
 				.row > .col-4-xlarge {
 					width: 33.33333%;
+		
 				}
 
 				.row > .off-4-xlarge {
@@ -841,6 +869,7 @@ input, select, textarea {
 
 				.row > .col-4-large {
 					width: 33.33333%;
+		
 				}
 
 				.row > .off-4-large {
@@ -1086,6 +1115,7 @@ input, select, textarea {
 
 				.row > .col-4-medium {
 					width: 33.33333%;
+		
 				}
 
 				.row > .off-4-medium {
@@ -1331,6 +1361,7 @@ input, select, textarea {
 
 				.row > .col-4-small {
 					width: 33.33333%;
+		
 				}
 
 				.row > .off-4-small {
@@ -1523,7 +1554,6 @@ input, select, textarea {
 		-webkit-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
 		-ms-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
 		transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
-		-webkit-appearance: none;
 		display: block;
 		border: 0;
 		padding: 0.75em;
@@ -1673,7 +1703,6 @@ input, select, textarea {
 		-webkit-transition: background-color .2s ease-in-out;
 		-ms-transition: background-color .2s ease-in-out;
 		transition: background-color .2s ease-in-out;
-		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
 		color: #fff !important;
